@@ -4,6 +4,7 @@ import CTA from './CTA'
 import ME from '../../assets/me2.png'
 import HeaderSocials from './HeaderSocials';
 
+
 export const Header = () => {
   return (
     <header>
@@ -11,9 +12,10 @@ export const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Devi Amaolo</h1>
         <h5 className="text-light">Frontend Developer</h5>
+                
         <CTA />
         <HeaderSocials />
-
+       
         <div className="me">
           <img src={ME} alt="me" />
         </div>

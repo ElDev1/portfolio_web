@@ -10,10 +10,11 @@ header {
     position:relative;
 }
 
+
 /* cta */
 
 .cta {
-    margin: top 2.5rem;
+    margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -47,13 +48,13 @@ header {
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    overflow:hidden;
+    overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.me img {
+/* .me img {
     width:21rem
-}
+} */
 
 /* scroll */
 .scroll_down {
@@ -69,7 +70,6 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         height:68vh;
-
     }
 }
 
@@ -79,7 +79,8 @@ header {
         height:100vh;
     }
 
-    .header__socials, .scroll_down {
+    .header__socials, 
+    .scroll_down {
         display: none;
     }
 }

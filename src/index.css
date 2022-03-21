@@ -22,7 +22,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 }
 
 html {
@@ -56,7 +56,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height:100vh;
 }
 
 section > h2, section > h5 {
@@ -109,6 +108,7 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
 
 /*media queries*/
 @media screen and (max-width: 1024px) {

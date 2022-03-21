@@ -44,6 +44,13 @@ const data = [
     title: 'Bank Dashboard & Financial Visualization',
     github: 'https://github.com',
     demo: 'https://www.youtube.com/watch?v=_S7WEVLbQ-Y&ab_channel=FicLord' 
+  },  
+  {
+    id: 7,
+    image: IMG,
+    title: 'Bank Dashboard & Financial Visualization',
+    github: 'https://github.com',
+    demo: 'https://www.youtube.com/watch?v=_S7WEVLbQ-Y&ab_channel=FicLord' 
   }
 ]
 
@@ -52,8 +59,6 @@ export const Portfolio = () => {
     <section id='portfolio'>
       <h5>My Recent Mark</h5>
       <h2>Portfolio</h2>
-
-            
 
       <div className="container portfolio_container">
         {
