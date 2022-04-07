@@ -12,7 +12,8 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
+    /* --color-bg-variant: #2c2c6c; */
+    --color-bg-variant: #002842;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
@@ -35,10 +36,10 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background: #00091f;
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url("./assets/egg-shell.png");
+    /* background-image: url("./assets/60-lines.png"); */
 }
 
 .container {

@@ -31,6 +31,20 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+.portfolio_tecnologies {
+    display:flex;
+    margin-bottom: 35px;
+}
+.portfolio_tecnologies-elements {
+    display:flex;
+    margin-right: 15px;
+    font-size: 17px;
+    color: #b7babd;
+}
+.portfolio_tecnologies-logo {
+    font-size:1.5rem;
+
+}
 
 /* media queries */
 

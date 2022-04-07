@@ -40,6 +40,12 @@ export const Contact = () => {
             <h5>Devi Amaolo</h5>
             <a href="https://www.linkedin.com/in/devi-amaolo-773135161/" target="_blank">Contact me</a>
           </article>
+          <article className='contact_option'>
+            <AiOutlineLinkedin className='contact_option-icon' />
+            <h4>Linkedin</h4>
+            <h5>Devi Amaolo</h5>
+            <a href="https://www.linkedin.com/in/devi-amaolo-773135161/" target="_blank">Contact me</a>
+          </article>
         </div>
           <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Your Full Name' required />
