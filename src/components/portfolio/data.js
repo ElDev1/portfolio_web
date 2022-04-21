@@ -28,7 +28,7 @@ export const data = [
         title: 'Quiz Game',
         tecnologies:"Simple quiz game created using JS vanilla and OOP paradigm",
         github: 'https://github.com/ElDev1/quiz_game',
-        demo: 'https://www.youtube.com/watch?v=_S7WEVLbQ-Y&ab_channel=FicLord' 
+        demo: 'https://quiz-game-dun.vercel.app/' 
       },
       {
         id: 4,
