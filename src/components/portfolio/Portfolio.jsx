@@ -19,14 +19,9 @@ export const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio_tecnologies'>
-                  {tecnologies.map((elem) => {
-                    return(
                       <div className='portfolio_tecnologies-elements'>
-                        <elem.logo className='portfolio_tecnologies-logo'/>
-                        <p>{elem.name}</p>
+                        <p>{tecnologies}</p>
                       </div>
-                    )
-                  })}
                 </div>
                 <div className='portfolio_item-cta'>
                   <a href={github} className='btn' target='_blank'>Github</a>

@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {AiOutlineLinkedin} from 'react-icons/ai'
+import {FaDev} from 'react-icons/fa';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -41,10 +42,10 @@ export const Contact = () => {
             <a href="https://www.linkedin.com/in/devi-amaolo-773135161/" target="_blank">Contact me</a>
           </article>
           <article className='contact_option'>
-            <AiOutlineLinkedin className='contact_option-icon' />
-            <h4>Linkedin</h4>
+            <FaDev className='contact_option-icon' />
+            <h4>Dev community</h4>
             <h5>Devi Amaolo</h5>
-            <a href="https://www.linkedin.com/in/devi-amaolo-773135161/" target="_blank">Contact me</a>
+            <a href="https://dev.to/deviamaolo/" target="_blank">Follow me</a>
           </article>
         </div>
           <form ref={form} onSubmit={sendEmail}>
