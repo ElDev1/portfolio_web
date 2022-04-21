@@ -1,11 +1,9 @@
-import IMG from '../../assets/portfolioExample.jpg'
 import socialNetwork from '../../assets/socialNetwork.png';
 import yardSale from '../../assets/yardSale.png';
 import quiz from '../../assets/quiz.png';
 import restCountries from '../../assets/restCountries.png';
 import crypto from '../../assets/crypto.png';
-import {DiReact} from 'react-icons/di';
-import {DiCss3} from 'react-icons/di';
+
 
 export const data = [
     {
